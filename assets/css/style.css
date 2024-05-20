@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/** INICIO FRETE */ 
+
+.frete {
+    background-color: var(--cor-fundo-frete);
+    padding: 1rem;
+}
+
+.frete p {
+    text-align: center;
+}
+
+/** FIM FRETE */ 
