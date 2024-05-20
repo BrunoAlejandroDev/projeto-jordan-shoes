@@ -14,3 +14,19 @@
 }
 
 /** FIM FRETE */ 
+
+/** INICIO HEADER */
+.container-header {
+    padding: 2rem 1rem;
+    height: 350px;
+    background-image: url("../img/image-michael-jordan.png");
+    background-size: cover;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+}
+
+.logo-jordan {
+    background-color: rgb(88, 88, 88);
+}
+
+/** FIM HEADER */
