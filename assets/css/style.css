@@ -2,31 +2,69 @@
 
 /** INICIO FRETE */ 
 
-.frete {
+.banner {
     background-color: var(--cor-fundo-frete);
     padding: 1rem;
-}
-
-.frete p {
     font-family: 'Archivo', sans-serif;
     font-style: normal;
     text-align: center;
+    font-weight: bold;
 }
 
 /** FIM FRETE */ 
 
 /** INICIO HEADER */
-.container-header {
-    padding: 2rem 1rem;
-    height: 350px;
+header {
+    position: relative;
+    width: 100%;
+    height: 300px;
     background-image: url("../img/image-michael-jordan.png");
-    background-size: cover;
-    background-clip: border-box;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
 }
 
-.logo-jordan {
-    background-color: rgb(88, 88, 88);
+.container-header {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 5%;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
 }
 
+.content-header {
+    width: 350px;
+}
+
+.logo-site {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.logo-site span {
+    font-family: 'Archivo', sans-serif;
+    color: var(--cor-principal-tipografia);
+    font-size: 1rem;
+}
+
+.title-header,
+.description-header {
+    color: var(--cor-principal-tipografia);
+}
+
+.title-header {
+    font-family: 'Archivo', sans-serif;
+    margin-bottom: 0.75rem;
+}
+
+.description-header {
+    font-family: 'Raleway', sans-serif;
+}
 /** FIM HEADER */
