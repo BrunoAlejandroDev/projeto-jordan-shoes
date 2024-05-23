@@ -6,9 +6,8 @@
     background-color: var(--cor-fundo-frete);
     padding: 1rem;
     font-family: 'Archivo', sans-serif;
-    font-style: normal;
     text-align: center;
-    font-weight: bold;
+    font-size: 0.875rem;
 }
 
 /** FIM FRETE */ 
