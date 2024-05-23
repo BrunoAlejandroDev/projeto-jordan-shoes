@@ -80,5 +80,52 @@ header::before {
 
 /** INICIO MAIN */
 
+.container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-info {
+    margin-top: 1.5rem;
+    width: 300px;
+    text-align: center;
+}
+
+.main-info__title{
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+}
+
+.main-info__description {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.875rem;
+}
+
+.card-produto {
+    margin: 2rem auto;
+}
+
+.img-produto {
+    background-color: var(--cor-fundo-sapatos);
+    width: 250px;
+    padding: 1rem;
+}
+
+.title-produto {
+    font-family: 'Archivo', sans-serif;
+    margin: .875rem 0 .625rem;
+}
+
+.subtitle-produto {
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.preco-produto {
+    font-family: 'Archivo', sans-serif;
+}
 
 /** FIM MAIN */
