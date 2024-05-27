@@ -69,10 +69,12 @@ header::before {
 
 .title-header {
     font-family: 'Archivo', sans-serif;
+    font-size: 1.5rem;
     margin-bottom: 0.75rem;
 }
 
 .description-header {
+    font-size: 0.875rem;
     font-family: 'Raleway', sans-serif;
 }
 /** FIM HEADER */
@@ -84,7 +86,7 @@ header::before {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    padding-bottom: 1rem;
 }
 
 .main-info {
@@ -105,17 +107,15 @@ header::before {
 }
 
 .items {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
     width: 100%;
 }
 
 .card-produto {
-    width: 250px;
-    height: 270px;
-    margin: 1.5rem 0;
+    width: min-content;
+    height: 250px;
+    margin: 1.5rem auto;
 }
 
 .img-produto {
@@ -134,7 +134,7 @@ header::before {
 .subtitle-produto {
     font-family: 'Raleway', sans-serif;
     font-size: 0.875rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     color: var(--cor-subtitulo-sapato);
 }
 

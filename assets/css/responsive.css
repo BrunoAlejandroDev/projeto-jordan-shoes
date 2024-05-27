@@ -1,7 +1,70 @@
 @media screen and (min-width: 768px) {
+    .banner {
+        font-size: 1rem;
+    }
+
+    .content-header {
+        width: 60%;
+    }
+
+    .title-header {
+        font-size: 2rem;
+    }
+
+    .description-header {
+        font-size: 1.2rem;
+    }
+
+    .main-info {
+        width: 80%;
+    }
+
+    .main-info__title {
+        font-size: 1.5rem;
+    }
+
+    .main-info__description {
+        font-size: 1.1rem;
+    }
+
     .items {
-        gap: 1rem;
-        flex-direction: row;
-        flex-wrap: wrap;
+        grid-template-columns: 1fr 1fr;
+        width: 80%;
+    }
+
+    .card-produto {
+        margin: 2rem auto;
+    }
+
+    .title-produto {
+        font-size: 1.15rem;
+    }
+    
+    .subtitle-produto {
+        font-size: 1rem;
+    }
+    
+    .preco-produto {
+        font-size: 1.1rem;
+        font-family: 'Archivo', sans-serif;
+    }
+}
+
+@media screen and (min-width: 968px) {
+    .banner {
+        font-size: 1.1rem;
+    }
+
+    .title-header {
+        font-size: 2rem;
+    }
+
+    .description-header {
+        font-size: 1.2rem;
+    }
+
+    .items {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 80%;
     }
 }
